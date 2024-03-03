@@ -4,7 +4,10 @@
 
 This Streamlit application empowers users to calculate their carbon footprint, raise awareness about environmental impact, and motivate them to adopt sustainable practices. 
 
-![Homepage](imgs/home.png)
+![Homepage](imgs/home.png) 
+<br />
+
+[App Demo](https://mindscope-labs-g3-streamlit-app-zyhswq.streamlit.app/)
 
 ## **Features:**
 
