@@ -20,7 +20,7 @@ st.title(":blue[G3] :green[Carbon Calculator] :orange[App]")
 st.subheader("🌍 Your Country")
 country = st.selectbox("Select", 
                        [
-                           "United Kingdom"
+                           "India"
                         ]
                        )
 
