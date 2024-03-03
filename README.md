@@ -4,11 +4,16 @@
 
 This Streamlit application empowers users to calculate their carbon footprint, raise awareness about environmental impact, and motivate them to adopt sustainable practices. 
 
+![Homepage](imgs/home.png)
+
 ## **Features:**
 
 * **Intuitive User Interface:** Streamlit's user-friendly framework simplifies navigation and data entry.
 * **Carbon Footprint Calculation:** The app guides users through various aspects of their lifestyle (e.g., transportation, energy consumption, waste generation) and calculates their estimated carbon footprint based on provided inputs.
 * **Actionable Insights:** The app presents the calculated footprint alongside personalized recommendations for carbon reduction strategies, empowering users to take informed steps towards a greener future. 
+
+![Results](imgs/results.png)
+
 * **Data Visualization (Optional):** Consider incorporating charts or graphs to visually represent the calculated footprint or the impact of potential reduction strategies (this is an optional feature).
 
 ## **Requirements:**
