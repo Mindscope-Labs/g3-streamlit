@@ -65,7 +65,10 @@ electricity_emissions = EMISSION_FACTORS[country]['Electricity'] * electricity
 waste_emissions = EMISSION_FACTORS[country]['Waste'] * waste 
 meals_emissions = EMISSION_FACTORS[country]['Meals'] * meals  
    
-   
+# Convert emissions to tons of CO2. Round off to 2 decimal places
+total_emissions = round(
+    
+)   
    
    
    
