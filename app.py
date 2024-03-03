@@ -1,7 +1,7 @@
 import streamlit as st
 
 EMISSION_FACTORS = {
-    "India": {
+    "United Kingdom": {
         "Transportation": 0.14, # kgCo2/km
         "Electricity": 0.82, # kgCO2/KwH
         "Meals": 1.25, # kgCO2/meal
@@ -20,7 +20,7 @@ st.title(":blue[G3] :green[Carbon Calculator] :orange[App]")
 st.subheader("🌍 Your Country")
 country = st.selectbox("Select", 
                        [
-                           "India"
+                           "United Kingdom"
                         ]
                        )
 
