@@ -27,7 +27,7 @@ country = st.selectbox("Select",
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("🚗 Daily compute distance (in km)")
+    st.subheader("🚗 Daily commute distance (in km)")
     distance = st.slider("Distance", 0.0, 100.0, key="distance_input")
     
     st.subheader("⚡ Monthly electricity consumption (in kwh)")
@@ -38,7 +38,7 @@ with col2:
     st.subheader("🗑️ Waste generated per week (in kg)")
     waste = st.slider("Waste", 0.0, 100.0, key="waste_input")
     
-    st.subheader("🍲 Number of meals per day (in kwh)")
+    st.subheader("🍲 Number of meals per day")
     meals = st.number_input("Meals", 0, key="meals_input")
    
 
@@ -85,4 +85,9 @@ if st.button("Calculate CO2 emission"):
         st.info(f"🗑️ Waste: {waste_emissions} tonnes CO2 per year") 
         st.info(f"🍲 Diet: {meals_emissions} tonnes CO2 per year") 
     
-         
+    with col4: 
+        st.subheader("Total Carbon Footprint")
+        st.info(f"🌍 Your total Carbon foortprint is: {total_emissions} tonnes CO2 per year") 
+        st.warning(f"Per capita carbon dioxide (CO₂) emissions in the United Kingdom stood at \
+            4.7 metric tons in 2022. Per capita emissions in the UK have fallen by nearly 60 \
+                percent since 1970, and by some 40 percent since the turn of the century.") 
