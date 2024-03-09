@@ -66,3 +66,5 @@ We welcome contributions to enhance this app! Please follow these guidelines:
 
 This project is licensed under the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/).
 
+## Contact Information
+[paulmwaura254@gmail.com](mailto:paulmwaura254@gmail.com)
